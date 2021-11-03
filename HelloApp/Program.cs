@@ -4,6 +4,11 @@ namespace HelloApp
 {
     class Program
     {
+        static void GreetBlack()
+        {
+            Console.WriteLine("hello black");
+        }
+
         static void GreetWhite()
         {
             Console.WriteLine("hello white");
@@ -12,6 +17,8 @@ namespace HelloApp
         static void Main(string[] args)
         {
             Console.WriteLine("hello everyone");
+            GreetWhite();
+            GreetBlack();
         }
     }
 }
